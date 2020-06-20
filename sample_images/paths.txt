@@ -1,0 +1,5 @@
+./ham10000/ham10000_images_part_2/ISIC_0033705.jpg - akiec
+./ham10000/ham10000_images_part_1/ISIC_0025781.jpg - bkl
+./ham10000/ham10000_images_part_1/ISIC_0027760.jpg - bkl
+./ham10000/ham10000_images_part_2/ISIC_0030309.jpg - nv
+./ham10000/ham10000_images_part_2/ISIC_0031336.jpg - nv

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+</head>
+<body>
+    <div style="margin: auto;width: 35%;border: 2px solid black; text-align: center;">
+        <h1>Skin disease Detection</h1>
+
+        <br>
+
+        <em>Please ensure the aspect ratio of your image is 4:3</em>
+        <form action="{{ url_for('main') }}" method="POST" enctype="multipart/form-data" >
+            <input type="file" name="file">
+            <input type="submit">
+        </form>
+    </div>
+
+    <br>
+
+    <div style="margin: auto;width: 35%;border: 2px solid red;">
+        {% if result %}
+            <p>{{ result }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
